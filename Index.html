@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Garage</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="assets/sass/unsemantic-grid-responsive-tablet-no-ie7">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+
+
+ 
+                <!-- PAGE NAVIGATIONS -->
+
+    <div class="parent">
+        <header>
+            <div class="grid-container">
+                <div class="grid-30">
+                    <a href="#" class="logo">mygarage</a>
+                </div>
+
+                <div class="grid-50">
+                    <ul class="nav navigation">
+                        <li><a href="#">cars</a></li>
+                        <li><a href="#">history</a></li>
+                        <li><a href="#">technology</a></li>
+                        <li><a href="#">production</a></li>
+                        <li><a href="#">reviews</a></li>
+                    </ul>
+                </div>
+
+                <div class="grid-20">
+                    <ul class="nav social-icons">
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fas fa-shopping-basket"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+
+
+           <!-- PAGE WRITINGS - AND 1985 ON THE BACKGROUND -->
+
+        <section>
+
+            <span class="year">1985</span>
+            <div class="grid-container">
+                <div class="grid-45">
+                    <div class="car-details">
+                        <h1 class="name">
+                            chevrolet <br>
+                            <span>camaro</span>
+                        </h1>
+                        <p class="about">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente veniam velit deserunt explicabo impedit earum repudiandae error aspernatur aperiam tempora minus modi cum laborum, praesentium ducimus
+                        </p>
+                        <h4 class="production-year">
+                            Production <br> <span>2000 - 2012</span>
+                        </h4>
+                        <a href="#" class="btn-discover">
+                            <span>discover</span>
+                            <i class="fas fa-long-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="grid-55">
+                    <div class="car-pic">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img class="carpic" src="Assets/toyota-landcruiser.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/f4ebb9937e.js" crossorigin="anonymous"></script>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        loop: true,
+        spaceBetween: 200,
+    });
+</script>
+
+</body>
+</html>
